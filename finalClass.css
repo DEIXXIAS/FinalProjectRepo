@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    background-image: url(https://lightacademy.co.uk/wp-content/uploads/2021/12/Screenshot-2021-12-17-at-11.46.13-1-scaled.jpg);
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-items: center;
+    padding: 2rem; 
+    background-color: #000000;
+}
+
+a {
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    background-color: #a15555;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+a:hover{
+    background-color: white;
+}
+
+h1{
+    position: static;
+    color: azure;
+    top: 250px;
+    justify-items: center;
+    display: grid;
+    border: 1rem solid #a15555;
+    padding: 3rem;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: #000000;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: static;
+    max-width: 50%;
+    height: auto;
+    border: 2rem solid white;
+}
+
+
+#business{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+p{
+    display: grid;
+    position: static;
+    padding: 2rem;
+    background-color: #a15555;
+    justify-items: center;
+    color: azure;
+    font-size: x-large;
+    margin-left: 30%;
+    margin-right: 30%; 
+    border-radius: 70%;
+}
+
+form{
+    display: grid;
+    position: sticky;
+    padding: 2rem;
+    justify-items: center;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    border: 2rem solid #a15555;
+    background-image: url(https://i.ebayimg.com/images/g/N0AAAOSwFztfJI7y/s-l1200.jpg);
+}
+
